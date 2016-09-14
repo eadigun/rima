@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RiMA</string>
+    <string name="app_description">RiMA - Remote Incident Management</string>
+    <string name="sql_create_table_log_types">
+        CREATE TABLE IF NOT EXISTS rlt_rima_log_types (
+            rlt_uid integer primary key autoincrement,
+            rlt_description text not null
+        );
+    </string>
+    <string name="sql_create_table_logs">
+        CREATE TABLE IF NOT EXISTS rl_rima_logs (
+            rl_uid integer primary key autoincrement,
+            rl_rlt_uid integer,
+            rl_date_created DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+    </string>
+</resources>

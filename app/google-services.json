@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805613568828",
+    "firebase_url": "https://cellc-rima-c990e.firebaseio.com",
+    "project_id": "cellc-rima-c990e",
+    "storage_bucket": "cellc-rima-c990e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805613568828:android:7cf159d4ce338132",
+        "android_client_info": {
+          "package_name": "com.firmtech.cellc.rima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805613568828-l967re7id1apq78kvs12nia8ff57p5fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOQZXLlhOzGJ5amlPYygBxpS5h7KWp2qc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
