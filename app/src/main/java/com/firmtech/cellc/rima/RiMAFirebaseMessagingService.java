@@ -17,7 +17,7 @@ import com.google.firebase.messaging.RemoteMessage;
  * Created by Emmanuel Adigun on 2016/09/14.
  */
 public class RiMAFirebaseMessagingService extends FirebaseMessagingService {
-    private static final String TAG = "RiMAFirebaseMessagingService";
+    private static final String TAG = "RiMAMessagingService";
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         //Log data to Log Cat

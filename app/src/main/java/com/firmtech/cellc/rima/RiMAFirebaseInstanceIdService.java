@@ -10,7 +10,7 @@ import com.google.firebase.iid.FirebaseInstanceIdService;
 
 public class RiMAFirebaseInstanceIdService extends FirebaseInstanceIdService {
 
-    private static final String TAG = "RiMAFirebaseInstanceIdService";
+    private static final String TAG = "RiMAInstanceIdService";
 
     @Override
     public void onTokenRefresh() {

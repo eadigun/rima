@@ -14,4 +14,15 @@
             rl_date_created DATETIME DEFAULT CURRENT_TIMESTAMP
         );
     </string>
+    <string name="sql_create_table_settings">
+        CREATE TABLE IF NOT EXISTS rs_rima_settings (
+            rs_uid integer primary key autoincrement,
+            rs_key text not null,
+            rs_value text not null,
+            rs_date_created DATETIME DEFAULT CURRENT_TIMESTAMP
+        );
+    </string>
+    <string name="sql_raw_query_fetch_settings">
+        select rs_value from rs_rima_settings where rs_key = ?
+    </string>
 </resources>
